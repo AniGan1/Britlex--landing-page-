@@ -1,0 +1,402 @@
+@import url("fonts.css");
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#container-wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+/* -------- HEADER  --------  */
+
+
+#header, #menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.desktop{
+    width: 100%;
+}
+
+#header{
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 34px;
+}
+
+#letsTalk{
+    width: 160px;
+    height: 50px;
+
+    text-align: center;
+
+    border: 2px solid #000000;
+    text-decoration: none;
+    transition: 1s linear; /* Время изменения */
+}
+
+#letsTalk:hover{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+
+/* -------- Main  --------  */
+
+#main{
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+}
+
+.section h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* -------- Banner  --------  */
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#banner-left{
+    width: 380px;
+}
+
+#banner-left-h1-container{
+    position: relative;
+}
+
+#banner-left h1{
+    width: 400px;
+    font-size: 48px;
+}
+
+#banner-left p{
+    color: #8F95A5;
+}
+
+#banner-btn ,.skills-btnr{
+    font-size: 26px;
+    margin: 90px 0;
+    display: block;
+    text-align: center;
+    padding: 32px 0;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    transition: 1s linear; /* Время изменения */
+}
+
+#banner-btn:hover, .skills-btn:hover,  #search-btn:hover{
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid  #000000;
+    text-decoration: none;
+}
+
+/* -------- Skills  --------  */
+
+#Skills-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+#skills-item-c{
+    width: 370px;
+}
+
+.skills-item{
+    padding: 25px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 15px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px 0 ;
+    font-size: 20px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 435px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 434px;
+}
+
+.skills-item3 {
+    width: 434px;
+}
+
+/* -------- AboutUs  --------  */
+
+.AboutUs-wrapper,.AboutUs-down, .AboutUs-left{
+    display: flex;
+}
+
+.AboutUs-wrapper{
+    justify-content: space-between;
+}
+
+.AboutUs-left{
+    text-align: justify;
+    max-width: 515.2px;
+    flex-direction: column;
+}
+
+.AboutUs-right img{
+    width: 98%;
+    height: auto;
+}
+
+.AboutUs-item {
+    text-align: center;
+}
+
+.AboutUs-item h3{
+    font-size: 48px;
+}
+
+.AboutUs-item p{
+    padding: 0;
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+/* -------- Pricing  --------  */
+
+.Pricing-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 40px;
+}
+
+.Pricing-item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Pricing-item img{
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.Pricing-item h3{
+    font-size: 30px;
+}
+
+.Pricing-item p{
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+.Pricing-item a{
+    max-width: 240px;
+    max-height: 45px;
+    display: flex;
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #EEEEEE;
+    font-size: 25px;
+}
+
+.Pricing-item a span{
+    font-size: 18px;
+}
+
+/* -------- ContactUs  --------  */
+#ContactUs{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.ContactUs-left {
+    width: 90%;
+    height: auto;
+}
+
+#navbar{
+    display: none;
+}
+
+.ContactUs-right {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    max-width: 676px;
+}
+
+.ContactUs-right h2{
+    text-align: start;
+    font-size: 48px;
+}
+
+.ContactUs-right p{
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+#ContactUs-form{
+    display: flex;
+    gap: 15px;
+}
+
+#search{
+    width: 350px;
+    height: 60px;
+
+    padding-left: 38px;
+    font-size: 16px;
+
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+
+    transition: 1s linear; /* Время изменения */
+}
+
+#search-btn{
+    width: 264px;
+    height: 60px;
+
+    color: #FFFFFF;
+    font-size: 20px;
+
+    background-color: #263238;
+    border: none;
+    border-radius: 10px;
+
+    transition: 1s linear; /* Время изменения */
+}
+
+/* -------- Footer  --------  */
+
+#footer, #footer_menu ul{
+    display: flex;
+}
+
+#footer{
+    padding: 20px 0;
+
+    border-top: 0.5px solid #000000;
+    
+    justify-content: space-between;
+}
+
+#footer_menu ul{
+    list-style-type: none;
+}
+
+.item a{
+    color: #8F95A5;
+    font:24px;
+}
+
+
+
+
+

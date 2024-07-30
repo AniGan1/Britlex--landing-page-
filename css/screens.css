@@ -1,0 +1,898 @@
+@media screen and (max-width:992px)  {
+    #container-wrapper{
+        max-width: 992px;
+    }
+
+    #logo{
+        font-size: 25px;
+    }
+
+    #menu{
+        font-size: 12px;
+        gap: 2px;
+    }
+
+    #letsTalk{
+        padding: 12px 30px;
+        font-size: 16px;
+        border: 2px solid #000000;
+        text-decoration: none;
+        transition: 1s linear; /* Время изменения */
+    }
+
+    .section h2{
+        font-size: 36px;
+    }
+
+    #banner-left-h1-container{
+        position: relative;
+    }
+    
+    #banner-left h1{
+        font-size: 250%;
+    }
+    
+    #banner-btn ,.skills-btn{
+        font-size: 16px;
+        padding: 22px 0;
+    }
+
+    
+/* -------- Skills  --------  */
+
+#Skills-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+#skills-item-c{
+    width: 370px;
+}
+
+.skills-item{
+    padding: 25px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 15px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px 0 ;
+    font-size: 20px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 435px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 434px;
+}
+
+.skills-item3 {
+    width: 434px;
+}
+
+/* -------- AboutUs  --------  */
+
+
+#Skills-wrapper{
+    display: flex;
+
+}
+
+#skills-item-c{
+    width: 370px;
+}
+
+.skills-item{
+    padding: 25px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 15px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px 0 ;
+    font-size: 16px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 355px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 334px;
+}
+
+.skills-item3 {
+    width: 334px;
+}
+
+
+/* -------- Pricing  --------  */
+
+.Pricing-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.Pricing-item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Pricing-item img{
+    text-align: center;
+    width: 320px;
+    height: 320px;
+}
+
+.Pricing-item h3{
+    font-size: 22px;
+}
+
+.Pricing-item p{
+    font-size: 16px;
+    color: #8F95A5;
+}
+
+.Pricing-item a{
+    max-width: 222px;
+    max-height: 35px;
+    display: flex;
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #EEEEEE;
+    font-size: 24px;
+}
+
+.Pricing-item a span{
+    font-size: 16px;
+}
+
+/* -------- ContactUs  --------  */
+#search{
+    width: 323px;
+}
+
+#search-btn{
+    width: 193px;
+}
+
+
+/* -------- Footer  --------  */
+.item a{
+    color: #8F95A5;
+    font:16px;
+}
+
+}
+
+/* -----------------------------------------------------  */
+/* -----------------------------------------------------  */
+/* -----------------------------------------------------  */
+
+@media screen and (max-width:867px) {
+    #container-wrapper{
+        max-width: 767px;
+    }
+    
+    #letsTalk{
+        display: none;
+    }
+
+    #header_menu{
+        display: none;
+    }
+
+    #navbar{
+        display: block;
+    }
+
+    #logo{
+        font-size: 22px;
+    }
+
+    #menu{
+        font-size:105px;
+        gap: 1px;
+    }
+
+    #banner-left{
+        width: 250px;
+    }
+
+    .section h2{
+        font-size: 36px;
+    }
+
+    #banner-left h1{
+        font-size: 36px;
+    }
+    
+    #banner-btn ,.skills-btn{
+        font-size: 16px;
+        padding: 22px 0;
+    }
+
+    .banner-container img{
+        width: 700px;
+        height: auto;
+    }
+    
+/* -------- Skills  --------  */
+
+#Skills-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#skills-item-c{
+    width: 200px;
+}
+
+.skills-item{
+    padding: 10px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px 0 ;
+    font-size: 20px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 355px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 304px;
+}
+
+.skills-item3 {
+    width: 304px;
+}
+
+/* -------- AboutUs  --------  */
+
+.AboutUs-wrapper,.AboutUs-down, .AboutUs-left{
+    display: flex;
+}
+
+.AboutUs-wrapper{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs-down{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.AboutUs-left{
+    max-width: 515.2px;
+    flex-direction: column;
+    order: 2;
+}
+
+.AboutUs-right img{
+    width: 68%;
+    height: auto;
+}
+
+.AboutUs-item {
+    text-align: center;
+}
+
+.AboutUs-item h3{
+    font-size: 48px;
+}
+
+.AboutUs-item p{
+    padding: 0;
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+/* -------- Pricing  --------  */
+
+#Skills-wrapper{
+    text-align: center;
+    display: flex;
+}
+
+#skills-item-c{
+    width: 370px;
+}
+
+.skills-item{
+    padding: 25px 47px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 15px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px auto ;
+    font-size: 16px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 355px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 334px;
+}
+
+.skills-item3 {
+    width: 334px;
+}
+
+
+/* -------- Pricing  --------  */
+
+.Pricing-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.Pricing-item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.Pricing-item img{
+    text-align: center;
+    width: 320px;
+    height: 320px;
+}
+
+.Pricing-item h3{
+    font-size: 22px;
+}
+
+.Pricing-item p{
+    font-size: 16px;
+    color: #8F95A5;
+}
+
+.Pricing-item a{
+
+    max-width: 222px;
+    max-height: 35px;
+    display: flex;
+    text-decoration: none;
+
+    align-items: center;
+    background: #EEEEEE;
+    font-size: 24px;
+}
+
+.Pricing-item a span{
+    font-size: 16px;
+}
+
+/* -------- ContactUs  --------  */
+#ContactUs{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.ContactUs-right h2 {
+    text-align: center;
+}
+
+#search{
+    width: 203px;
+}
+
+#search-btn{
+    width: 193px;
+}
+
+/* -------- Footer  --------  */
+#footer_menu ul{
+    gap: 2px;
+}
+.item a{
+    color: #8F95A5;
+    font-size: 12px;
+}
+}
+
+/* -----------------------------------------------------  */
+/* -----------------------------------------------------  */
+/* -----------------------------------------------------  */
+
+@media screen and (max-width:760px) {
+    #container-wrapper{
+        max-width: 767px;
+    }
+    
+    #letsTalk{
+        display: none;
+    }
+
+    #header_menu{
+        display: none;
+    }
+
+    #navbar{
+        display: block;
+    }
+
+    #logo{
+        font-size: 22px;
+    }
+
+    #menu{
+        font-size: 10px;
+        gap: 1;
+    }
+
+    .section h2{
+        font-size: 36px;
+    }
+    
+    #banner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 0;
+    }
+
+    #banner-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #banner-left h1{
+        text-align:center;
+        font-size: 36px;
+    }
+
+    #banner-btn ,.skills-btn{
+        font-size: 16px;
+        padding: 22px 0;
+    }
+
+    .banner-container2{
+        order:2;
+    }
+
+    .banner-container img{
+        text-align:center;
+        width: 500px;
+        height: auto;
+    }
+    
+/* -------- Skills  --------  */
+
+#Skills-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#skills-item-c{
+    width: 200px;
+}
+
+.skills-item{
+    padding: 10px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px 0 ;
+    font-size: 20px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 355px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 304px;
+}
+
+.skills-item3 {
+    width: 304px;
+}
+
+/* -------- AboutUs  --------  */
+
+.AboutUs-wrapper,.AboutUs-down, .AboutUs-left{
+    display: flex;
+}
+
+.AboutUs-wrapper{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs-down{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.AboutUs-left{
+    max-width: 515.2px;
+    flex-direction: column;
+    order: 2;
+}
+
+.AboutUs-right img{
+    width: 68%;
+    height: auto;
+}
+
+.AboutUs-item {
+    text-align: center;
+}
+
+.AboutUs-item h3{
+    font-size: 48px;
+}
+
+.AboutUs-item p{
+    padding: 0;
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+/* -------- Pricing  --------  */
+
+#Skills-wrapper{
+    text-align: center;
+    display: flex;
+}
+
+#skills-item-c{
+    width: 370px;
+}
+
+.skills-item{
+    padding: 25px 47px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+#skills-item{
+    
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+
+.skills-item h3{
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.skills-item p{
+    margin-bottom: 25px;
+}
+
+.skills-item-c{
+    padding: 15px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.skills-btn{
+    margin: 10px auto ;
+    font-size: 16px;
+    padding: 17px 40px ;
+}
+
+.skills-btn img{
+    text-align: center;
+}
+
+.skills-item1 {
+    width: 355px;
+    height: 894px;
+}
+
+.skills-item2 {
+    width: 334px;
+}
+
+.skills-item3 {
+    width: 334px;
+}
+
+
+/* -------- Pricing  --------  */
+
+.Pricing-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.Pricing-item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.Pricing-item img{
+    text-align: center;
+    width: 320px;
+    height: 320px;
+}
+
+.Pricing-item h3{
+    font-size: 22px;
+}
+
+.Pricing-item p{
+    font-size: 16px;
+    color: #8F95A5;
+}
+
+.Pricing-item a{
+
+    max-width: 222px;
+    max-height: 35px;
+    display: flex;
+    text-decoration: none;
+
+    align-items: center;
+    background: #EEEEEE;
+    font-size: 24px;
+}
+
+.Pricing-item a span{
+    font-size: 16px;
+}
+
+/* -------- ContactUs  --------  */
+#ContactUs{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.ContactUs-right h2 {
+    text-align: center;
+}
+
+#search{
+    width: 203px;
+}
+
+#search-btn{
+    width: 193px;
+}
+
+/* -------- Footer  --------  */
+#footer_menu ul{
+    gap: 2px;
+}
+.item a{
+    color: #8F95A5;
+    font-size: 12px;
+}
+}
+
